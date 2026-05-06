@@ -1,0 +1,16 @@
+[package]
+name = "mdtool-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+comrak = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+schemars = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+
+[dev-dependencies]
+insta = { workspace = true }
+proptest = { workspace = true }

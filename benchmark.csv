@@ -1,0 +1,49 @@
+group,task,approach,round_trips,input_chars,output_chars,total_chars,time_ms,status
+1-Read,1.1 Outline depth=3,MCP,1,213,7990,8203,1.5,OK
+1-Read,1.1 Outline depth=3,CLI,1,115,22109,22224,3.0,OK
+1-Read,1.1 Outline depth=3,Direct,2,101,170710,170811,2.1,OK
+1-Read,1.2 Section text,MCP,1,301,329,630,1.4,OK
+1-Read,1.2 Section text,CLI,1,182,305,487,3.0,OK
+1-Read,1.2 Section text,Direct,2,118,4851,4969,1.6,OK
+1-Read,1.3 List fences,MCP,1,213,391,604,1.4,OK
+1-Read,1.3 List fences,CLI,1,118,691,809,3.0,OK
+1-Read,1.3 List fences,Direct,1,58,1357,1415,1.2,OK
+1-Read,1.4 Section children,MCP,1,271,131,402,1.4,OK
+1-Read,1.4 Section children,CLI,1,150,6853,7003,2.9,OK
+1-Read,1.4 Section children,Direct,2,120,7490,7610,1.7,OK
+2-Search,2.1 Search Invoice,MCP,1,188,3273,3461,2.3,OK
+2-Search,2.1 Search Invoice,CLI,1,108,3812,3920,3.8,OK
+2-Search,2.1 Search Invoice,Direct,1,63,3544,3607,1.3,OK
+2-Search,2.2 Scoped search API,MCP,1,280,1072,1352,1.4,OK
+2-Search,2.2 Scoped search API,CLI,1,104,2655,2759,3.6,OK
+2-Search,2.2 Scoped search API,Direct,3,211,54925,55136,3.2,OK
+2-Search,2.3 Search confidence CS,MCP,1,215,1040,1255,2.3,OK
+2-Search,2.3 Search confidence CS,CLI,1,128,1139,1267,3.3,OK
+2-Search,2.3 Search confidence CS,Direct,1,65,758,823,1.1,OK
+3-Edit,3.1 Replace paragraph,MCP,1,280,121,401,0.1,OK
+3-Edit,3.1 Replace paragraph,CLI,1,158,1868,2026,4.5,OK
+3-Edit,3.1 Replace paragraph,Direct,2,88,166090,166178,2.0,OK
+3-Edit,3.2 Rename section,MCP,1,370,121,491,0.1,OK
+3-Edit,3.2 Rename section,CLI,1,217,199,416,4.9,OK
+3-Edit,3.2 Rename section,Direct,2,134,85,219,2.2,OK
+3-Edit,3.3 Delete block,MCP,1,240,121,361,0.0,OK
+3-Edit,3.3 Delete block,CLI,1,122,1869,1991,4.4,OK
+3-Edit,3.3 Delete block,Direct,2,62,166090,166152,2.0,OK
+3-Edit,3.4 Insert after,MCP,1,299,121,420,0.1,OK
+3-Edit,3.4 Insert after,CLI,1,164,391,555,4.5,OK
+3-Edit,3.4 Insert after,Direct,2,109,166090,166199,2.0,OK
+4-Process,4.1 Validate,MCP,1,170,139,309,4.0,OK
+4-Process,4.1 Validate,CLI,1,102,57,159,5.4,OK
+4-Process,4.1 Validate,Direct,3,190,4,194,3.3,OK
+4-Process,4.2 Normalize,MCP,1,188,1380,1568,1.6,OK
+4-Process,4.2 Normalize,CLI,1,113,1749,1862,3.2,OK
+4-Process,4.2 Normalize,Direct,2,119,166042,166161,2.4,OK
+5-ASCII,5.1 Find ASCII blocks,MCP,1,214,392,606,1.3,OK
+5-ASCII,5.1 Find ASCII blocks,CLI,1,118,691,809,2.8,OK
+5-ASCII,5.1 Find ASCII blocks,Direct,1,74,635,709,1.2,OK
+5-ASCII,5.2 Format ASCII,MCP,1,191,145,336,1.5,OK
+5-ASCII,5.2 Format ASCII,CLI,1,116,63,179,2.7,OK
+5-ASCII,5.2 Format ASCII,Direct,1,44,166040,166084,1.0,OK
+6-E2E,6.1 Full workflow,MCP,4,836,8841,9677,8.7,OK
+6-E2E,6.1 Full workflow,CLI,4,467,18877,19344,16.4,OK
+6-E2E,6.1 Full workflow,Direct,5,243,174304,174547,5.7,OK

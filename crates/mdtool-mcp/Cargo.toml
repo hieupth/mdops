@@ -1,0 +1,20 @@
+[package]
+name = "mdtool-mcp"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mdtool-mcp"
+path = "src/main.rs"
+
+[dependencies]
+mdtool-core = { path = "../mdtool-core" }
+rmcp = { version = "0.1", features = ["macros", "server", "transport-io"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+schemars = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+anyhow = { workspace = true }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "io-std", "sync"] }
+futures = "0.3"
